@@ -6,7 +6,7 @@ sudo apt install python3-pip
 sudo apt install pipenv
 
 # Create and activate new environment
-cd hummingbots
+mkdir hummingbots && cd hummingbots
 pipenv shell
 
 # Expected output >> "Successfully created virtual environment!"
@@ -18,4 +18,4 @@ pipenv install openpyxl
 
 git clone https://github.com/tomasgaudino/streambot.git
 
-streamlit run Home.py
+python3 -c streamlit run Home.py
