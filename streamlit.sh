@@ -7,7 +7,7 @@ echo "✅ Software updated and upgraded."
 
 # Install python venv
 echo "🕛 Installing python..."
-sudo apt install python3-pip > /dev/null
+sudo apt install python3-pip
 echo "✅ Python installed."
 echo ""
 
