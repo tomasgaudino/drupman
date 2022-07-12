@@ -17,3 +17,5 @@ pipenv install streamlit
 pipenv install openpyxl
 
 git clone https://github.com/tomasgaudino/streambot.git
+
+streamlit run Home.py
