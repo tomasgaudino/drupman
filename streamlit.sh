@@ -28,7 +28,6 @@ echo "✅ Virtual environment created."
 
 # Install streamlit
 echo "🕛 Installing streamlit and openpyxl..."
-pip install pipenv --upgrade
 pipenv install streamlit
 pipenv install openpyxl
 echo "✅ Streamlit and openpyxl installed."
