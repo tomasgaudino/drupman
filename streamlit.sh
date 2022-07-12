@@ -1,7 +1,8 @@
 #!/usr/bin/bash
 
 echo "🕛 Updating and upgrading software..."
-sudo apt-get update && sudo apt-get upgrade >/dev/null
+sudo apt-get update >/dev/null
+sudo apt-get -y upgrade >/dev/null
 echo "✅ Software updated and upgraded."
 
 # Install python venv
