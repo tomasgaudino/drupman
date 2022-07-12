@@ -21,7 +21,7 @@ echo ""
 # Create and activate new environment
 echo "🕛 Creating virtual environment..."
 mkdir hummingbots && cd hummingbots
-pipenv shell
+pipenv shell >/dev/null
 echo "✅ Virtual environment created."
 
 # Expected output >> "Successfully created virtual environment!"
