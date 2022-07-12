@@ -2,7 +2,7 @@
 
 echo "🕛 Updating and upgrading software..."
 sudo apt-get update
-sudo apt-get -y upgrade
+sudo apt-get upgrade
 echo "✅ Software updated and upgraded."
 
 # Install python venv
