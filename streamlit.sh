@@ -38,4 +38,5 @@ git clone https://github.com/tomasgaudino/streambot.git
 echo "✅ Virtual environment created."
 
 echo "🕛 Running streamlit..."
-python3 -c streamlit run Home.py
+cd streambot
+streamlit run Home.py
